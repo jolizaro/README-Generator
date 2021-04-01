@@ -1,4 +1,8 @@
-# Table of Contents:
+const fs = require("fs");
+const questions = require("./questions.js");
+const inquirer = require("inquirer");
+const generateHTML = (answers) =>
+`# Table of Contents:
 * [Title](#Title)
 * [Description](#Description)
 * [Usage](#Usage)
@@ -8,18 +12,18 @@
 * [Github](#Github)
 * [Email](#Email)
 # Title:
-# Dicksmack
+# ${answers.title}
 ## Description:
-its dumb 
+${answers.description}
 #Usage
-https//:www.github.com/Jolizaro
+${answers.usage}
 #Contribution Guidelines
-no way! 
+${answers.contribution}
 #Tests
-Some of the tests that I ran for this project are: none.
+Some of the tests that I ran for this project are: ${answers.tests}.
 #License
 MIT License
-Copyright (c) 2021 Joliza
+Copyright (c) 2021 ${answers.name}
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -36,6 +40,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #Github
-Please visit my https//:www.github.com/JOlizaro to visit my work.
+Please visit my ${answers.github} to visit my work.
 #Email
-My Email is None@none.com. Feel free to reach me here.
+My Email is ${answers.email}. Feel free to reach me here.`;
+inquirer
+    .prompt(questions)
+    .then((data) => {
+        const filename = `README.md`;
+        fs.writeFile(filename, generateHTML(data), (err) =>
+          err ? console.log(err) : console.log('Success!')
+        );
+      });
