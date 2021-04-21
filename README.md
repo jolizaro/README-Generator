@@ -9,21 +9,21 @@
 * [Email](#Email)
 
 # Title:
-# Readme generator
+# README Generator
 ## Description:
-it's very cool
+It is cool
 #Usage
-kdjbfisbfw
+idk
 #Contribution Guidelines
-ksdhfisfbs
+none
 #Tests
-Some of the tests that I ran for this project are: ksjdbifbsibf.
+Some of the tests that I ran for this project are: none.
 #License
 undefined
 #Github
-Please visit my github ksebfibisebf.
+Please visit my github https://github.com/jolizaro.
 #Email
-My Email is .
+My Email is joliza@joliza.com.
 
 MIT License
 Copyright (c) 2021 Joliza
@@ -43,6 +43,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 #Github
-Please visit my ksebfibisebf to visit my work.
+Please visit my https://github.com/jolizaro to visit my work.
 #Email
-My Email is . Feel free to reach me here.
+My Email is joliza@joliza.com. Feel free to reach me here.

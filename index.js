@@ -29,6 +29,12 @@ ${answers.license}
 Please visit my github ${answers.github}.
 #Email
 My Email is ${answers.email}.
+#Github
+Please visit my ${answers.github} to visit my work.
+#Email
+My Email is ${answers.email}. Feel free to reach me here.
+
+[Walkthrough video](https://youtu.be/K8cIZRbAvsg)
 
 MIT License
 Copyright (c) 2021 ${answers.name}
@@ -46,11 +52,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-#Github
-Please visit my ${answers.github} to visit my work.
-#Email
-My Email is ${answers.email}. Feel free to reach me here.`;
+SOFTWARE.`;
 
  
  inquirer
