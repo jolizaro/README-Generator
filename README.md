@@ -11,22 +11,28 @@
 # Title:
 # README Generator
 ## Description:
-It is cool
+NONE
 #Usage
-idk
+NONE
 #Contribution Guidelines
-none
+NONE
 #Tests
-Some of the tests that I ran for this project are: none.
+Some of the tests that I ran for this project are: NONE.
 #License
 undefined
 #Github
-Please visit my github https://github.com/jolizaro.
+Please visit my github NONE.
 #Email
-My Email is joliza@joliza.com.
+My Email is Joliza@joliza.com.
+#Github
+Please visit my NONE to visit my work.
+#Email
+My Email is Joliza@joliza.com. Feel free to reach me here.
+
+[Walkthrough video](https://youtu.be/K8cIZRbAvsg)
 
 MIT License
-Copyright (c) 2021 Joliza
+Copyright (c) 2021 Joliza 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -42,7 +48,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-#Github
-Please visit my https://github.com/jolizaro to visit my work.
-#Email
-My Email is joliza@joliza.com. Feel free to reach me here.
