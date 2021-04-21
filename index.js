@@ -1,6 +1,7 @@
 const fs = require("fs");
 const questions = require("./questions.js");
 const inquirer = require("inquirer");
+
 const generateHTML = (answers) =>
 `# Table of Contents:
 * [Title](#Title)
@@ -11,6 +12,7 @@ const generateHTML = (answers) =>
 * [License](#License)
 * [Github](#Github)
 * [Email](#Email)
+
 # Title:
 # ${answers.title}
 ## Description:
@@ -22,6 +24,12 @@ ${answers.contribution}
 #Tests
 Some of the tests that I ran for this project are: ${answers.tests}.
 #License
+${answers.license}
+#Github
+Please visit my github ${answers.github}.
+#Email
+My Email is ${answers.email}.
+
 MIT License
 Copyright (c) 2021 ${answers.name}
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -43,11 +51,15 @@ SOFTWARE.
 Please visit my ${answers.github} to visit my work.
 #Email
 My Email is ${answers.email}. Feel free to reach me here.`;
-inquirer
+
+ 
+ inquirer
     .prompt(questions)
-    .then((data) => {
+    .then(data => {
         const filename = `README.md`;
         fs.writeFile(filename, generateHTML(data), (err) =>
           err ? console.log(err) : console.log('Success!')
         );
-      });
+      }); 
+      
+      
